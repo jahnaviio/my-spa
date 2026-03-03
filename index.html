@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aura Spa</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<header>
+    <div class="logo">Aura</div>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#about">About</a>
+        <a href="#services">Services</a>
+        <a href="#gallery">Gallery</a>
+        <a href="#contact" class="btn-nav">Book Appointment</a>
+    </nav>
+</header>
+
+<!-- HERO -->
+<section class="hero">
+    <div class="hero-container">
+        <div class="hero-text">
+            <h1>Relax. Refresh. Rejuvenate.</h1>
+            <p>Take a pause from the rush and enjoy a calm wellness experience.</p>
+            <a href="#contact" class="btn">Book Your Session</a>
+        </div>
+
+        <div class="hero-image">
+            <img src="images/gallery2.jpg" alt="Spa">
+        </div>
+    </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="about">
+    <h2>About Aura</h2>
+    <p>
+        Aura is a quiet space created for you to slow down and recharge.
+        Whether you're tired from work or just want time for yourself,
+        our therapies help your body relax and your mind feel lighter.
+        Simple care, peaceful environment, and time that truly feels yours.
+    </p>
+</section>
+
+<!-- SERVICES -->
+<section id="services" class="services">
+    <h2>Our Services</h2>
+
+    <div class="service-box">
+        <img src="images/service4.jpg">
+        <h3>Thai Massage</h3>
+        <p>Deep stretching to release body tension.</p>
+    </div>
+
+    <div class="service-box">
+        <img src="images/service3.jpg">
+        <h3>Swedish Massage</h3>
+        <p>Soft, flowing therapy for full relaxation.</p>
+    </div>
+</section>
+
+<!-- GALLERY -->
+<section id="gallery" class="gallery">
+    <h2>Our Space</h2>
+    <img src="images/gallery5.jpg">
+</section>
+
+<!-- CONTACT -->
+<!-- CONTACT + BOOKING FORM -->
+<section id="contact">
+  <div class="contact-wrapper">
+
+    <!-- LEFT SIDE INFO -->
+    <div class="contact-left">
+      <h2>Visit Us</h2>
+      <p><strong>Conveniently located for your comfort</strong></p>
+
+      <h3>Address</h3>
+      <p>
+        4th Floor, Serenity Plaza,<br>
+        Lakeview Avenue,<br>
+        Bengaluru, Karnataka
+      </p>
+
+      <h3>Phone</h3>
+      <p>+91 98765 43210</p>
+
+      <h3>Email</h3>
+      <p>relax@auraspa.in</p>
+    </div>
+
+    <!-- BOOKING FORM (THIS IS NEW) -->
+    <div class="booking-form">
+      <h2>Book Your Session</h2>
+
+     <form action="https://formsubmit.co/raya2730balh@gmail.com" method="POST" class="booking-form">
+
+<input type="hidden" name="_subject" value="New Spa Booking!">
+<input type="hidden" name="_captcha" value="false">
+<input type="hidden" name="_template" value="table">
+
+<label>Name</label>
+<input type="text" name="name" required>
+
+<label>Contact Number</label>
+<input type="tel" name="phone" required>
+
+<label>Type of Therapy</label>
+<select name="service">
+  <option>Thai Massage</option>
+  <option>Swedish Massage</option>
+  <option>Deep Tissue</option>
+</select>
+
+<label>Preferred Date</label>
+<input type="date" name="date" required>
+
+<button type="submit">Confirm Booking</button>
+
+</form>
+    </div>
+
+    <!-- RIGHT SIDE HOURS -->
+    <div class="contact-right">
+      <h2>Opening Hours</h2>
+      <p class="timing">Mon – Sun</p>
+      <p>10:00 AM – 09:30 PM</p>
+    </div>
+
+  </div>
+</section>
+
+<footer>
+    <p>© 2026 Aura | Demo Website</p>
+</footer>
+
+</body>
+</html>
